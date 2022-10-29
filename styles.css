@@ -1,3 +1,66 @@
 body {
-    background-color: gold
-    }
+    background: #BEEF00; 
+}
+
+h1{
+   text-align: center;
+   color: black;
+   font-family: 'Bebas Neue', cursive;
+}
+
+#question{
+   width: 70;
+   padding: 30px;
+   border: 3px solid blue;
+   background-color: BLACK;
+   color: white;
+   font-size:28px;
+   margin: 10px auto;
+   font-family: 'Bebas Neue', cursive;
+}
+
+#answer{
+   width: 50%;
+   margin: 10px auto;
+   color: white;
+   background: BLACK;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   font-family: 'Bebas Neue', cursive;
+}
+
+#answer ul{
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   list-style: none;
+
+}
+
+#answer ul li {
+   width: 40%;
+   height: 40px;
+   background-color: black;
+   padding-top: 15px;
+   text-align: center;
+   margin: 5px;
+}
+
+#scores{
+   display: flex;
+   width: 70%;
+   background-color: ;
+   justify-content: center;
+   margin: 10px auto;
+
+}
+
+#player1, #player2 {
+   width: 40%;
+   margin: 5px;
+   text-align: center;
+   font-family: 'Bebas Neue', cursive;
+}
