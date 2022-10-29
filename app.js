@@ -7,9 +7,7 @@ const state = {
 
 let questions = []
 
-//******************** */
 // Main DOM Element
-//******************* */
 
 const $question = $("#question")
 const $a = $("#a")
@@ -19,9 +17,7 @@ const $d = $("#d")
 const $p1score = $("#player1 h4")
 const $p2score = $("#player2 h4")
 
-//******************** */
 // Functions
-//******************* */
 
 const chooseAnswer = (event, question) => {
     console.log(event)
